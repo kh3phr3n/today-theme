@@ -29,9 +29,9 @@ let s:colors.orange     = ['de935f', 173]
 let s:colors.yellow     = ['f0c674', 221]
 let s:colors.purple     = ['b294bb', 139]
 
-let s:colors.addbg      = ['5F875F',  65]
+let s:colors.addbg      = ['5f875f',  65]
 let s:colors.addfg      = ['d7ffaf', 193]
-let s:colors.changebg   = ['5F5F87',  60]
+let s:colors.changebg   = ['5f5f87',  60]
 let s:colors.changefg   = ['d7d7ff', 189]
 
 let s:colors.darkred    = ['5f0000',  52]

@@ -40,11 +40,11 @@ let s:colors.darkcyan   = ['005f5f',  24]
 let s:colors.darkpurple = ['5f005f',  53]
 let s:colors.darkcolumn = ['1c1c1c', 234]
 
-let s:colors.line       = ['282a2e', 235]
+let s:colors.line       = ['212d32', 235]
 let s:colors.window     = ['303030', 236]
 let s:colors.comment    = ['707880', 243]
-let s:colors.selection  = ['373b41', 237]
-let s:colors.background = ['1d1f21', 234]
+let s:colors.selection  = ['455a64', 240]
+let s:colors.background = ['263238', 236]
 let s:colors.foreground = ['c5c8c6', 250]
 
 " Highlighting Function
@@ -104,7 +104,7 @@ call s:Hl('DiffChange'  , 'changefg'  , 'changebg'  , 'none')
 call s:Hl('DiffDelete'  , 'background', 'red'       , 'none')
 call s:Hl('DiffText'    , 'background', 'blue'      , 'none')
 call s:Hl('ErrorMsg'    , 'red'       , 'background', 'none')
-call s:Hl('VertSplit'   , 'window'    , 'background', 'none')
+call s:Hl('VertSplit'   , 'line'      , 'background', 'none')
 call s:Hl('Folded'      , 'comment'   , 'background', 'none')
 call s:Hl('FoldColumn'  , 'foreground', 'background', 'none')
 call s:Hl('SignColumn'  , 'foreground', 'background', 'none')
@@ -125,11 +125,11 @@ call s:Hl('SpellBad'    , 'red'       , 'darkred'   , 'none')
 call s:Hl('SpellCap'    , 'blue'      , 'darkblue'  , 'none')
 call s:Hl('SpellLocal'  , 'aqua'      , 'darkcyan'  , 'none')
 call s:Hl('SpellRare'   , 'purple'    , 'darkpurple', 'none')
-call s:Hl('StatusLine'  , 'yellow'    , 'window'    , 'none')
-call s:Hl('StatusLineNC', 'foreground', 'window'    , 'none')
-call s:Hl('TabLine'     , 'foreground', 'window'    , 'none')
-call s:Hl('TabLineFill' , 'foreground', 'window'    , 'none')
-call s:Hl('TabLineSel'  , 'yellow'    , 'background', 'none')
+call s:Hl('StatusLine'  , 'blue'      , 'line'      , 'none')
+call s:Hl('StatusLineNC', 'foreground', 'line'      , 'none')
+call s:Hl('TabLine'     , 'foreground', 'line'      , 'none')
+call s:Hl('TabLineFill' , 'foreground', 'line'      , 'none')
+call s:Hl('TabLineSel'  , 'blue'      , 'background', 'none')
 call s:Hl('Visual'      , 'foreground', 'selection' , 'none')
 call s:Hl('WarningMsg'  , 'red'       , 'background', 'none')
 " call s:Hl('', '', '', 'none')

@@ -1,8 +1,7 @@
 # Today Theme
 
 Color palette based on
-[Hybrid](https://github.com/w0ng/vim-hybrid) and
-[Tomorrow](https://github.com/ChrisKempson/Tomorrow-Theme).
+[Hybrid](https://github.com/w0ng/vim-hybrid), [Material](https://github.com/kristijanhusak/vim-hybrid-material) and [Tomorrow](https://github.com/ChrisKempson/Tomorrow-Theme).
 
 ![today-py](http://static.tuxico.com/today-theme/today-py.png)
 ![today-html](http://static.tuxico.com/today-theme/today-html.png)

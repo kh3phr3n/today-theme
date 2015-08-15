@@ -40,7 +40,7 @@ let s:colors.darkcyan   = ['005f5f',  24]
 let s:colors.darkpurple = ['5f005f',  53]
 let s:colors.darkcolumn = ['1c1c1c', 234]
 
-let s:colors.line       = ['212d32', 235]
+let s:colors.line       = ['37474f', 238]
 let s:colors.window     = ['303030', 236]
 let s:colors.comment    = ['707880', 243]
 let s:colors.selection  = ['455a64', 240]

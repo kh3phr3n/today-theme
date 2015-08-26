@@ -91,7 +91,6 @@ call s:Hl('Todo'      , 'orange'    , 'background', 'none')
 " ----------------------------------------------
 
 " Optionals: VisualNOS, WildMenu
-" Optionals: PmenuSbar, PmenuThumb
 " Optionals: Conceal, Cursor, CursorIM
 
 call s:Hl('Title'       , 'yellow'    , ''          , 'none')
@@ -116,8 +115,10 @@ call s:Hl('ModeMsg'     , 'foreground', 'background', 'none')
 call s:Hl('MoreMsg'     , 'green'     , 'background', 'none')
 call s:Hl('NonText'     , 'selection' , 'background', 'none')
 call s:Hl('Normal'      , 'foreground', 'background', 'none')
-call s:Hl('Pmenu'       , 'foreground', 'selection' , 'none')
-call s:Hl('PmenuSel'    , 'selection' , 'foreground', 'none')
+call s:Hl('Pmenu'       , 'foreground', 'line'      , 'none')
+call s:Hl('PmenuSel'    , 'foreground', 'selection' , 'none')
+call s:Hl('PmenuSbar'   , 'line'      , 'line'      , 'none')
+call s:Hl('PmenuThumb'  , 'selection' , 'selection' , 'none')
 call s:Hl('Question'    , 'green'     , 'background', 'none')
 call s:Hl('Search'      , 'background', 'yellow'    , 'none')
 call s:Hl('SpecialKey'  , 'selection' , 'background', 'none')

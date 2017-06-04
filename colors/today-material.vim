@@ -21,31 +21,31 @@ endif
 
 let s:colors = {}
 
-let s:colors.red        = ['cc6666', 167]
-let s:colors.aqua       = ['8abeb7', 109]
-let s:colors.blue       = ['81a2be', 110]
-let s:colors.green      = ['b5bd68', 143]
-let s:colors.orange     = ['de935f', 173]
-let s:colors.yellow     = ['f0c674', 221]
-let s:colors.purple     = ['b294bb', 139]
+let s:colors.red        = ['CC6666', 167]
+let s:colors.aqua       = ['8ABEB7', 109]
+let s:colors.blue       = ['81A2BE', 110]
+let s:colors.green      = ['B5BD68', 143]
+let s:colors.orange     = ['DE935F', 173]
+let s:colors.yellow     = ['F0C674', 221]
+let s:colors.purple     = ['B294BB', 139]
 
-let s:colors.addbg      = ['5f875f',  65]
-let s:colors.addfg      = ['d7ffaf', 193]
-let s:colors.changebg   = ['5f5f87',  60]
-let s:colors.changefg   = ['d7d7ff', 189]
+let s:colors.addbg      = ['5F875F',  65]
+let s:colors.addfg      = ['D7FFAF', 193]
+let s:colors.changebg   = ['5F5F87',  60]
+let s:colors.changefg   = ['D7D7FF', 189]
 
-let s:colors.darkred    = ['5f0000',  52]
-let s:colors.darkblue   = ['00005f',  17]
-let s:colors.darkcyan   = ['005f5f',  24]
-let s:colors.darkpurple = ['5f005f',  53]
-let s:colors.darkcolumn = ['1c1c1c', 234]
+let s:colors.darkred    = ['5F0000',  52]
+let s:colors.darkblue   = ['00005F',  17]
+let s:colors.darkcyan   = ['005F5F',  24]
+let s:colors.darkpurple = ['5F005F',  53]
+let s:colors.darkcolumn = ['1C1C1C', 234]
 
-let s:colors.line       = ['37474f', 238]
+let s:colors.line       = ['37474F', 238]
 let s:colors.window     = ['303030', 236]
 let s:colors.comment    = ['707880', 243]
-let s:colors.selection  = ['455a64', 240]
+let s:colors.selection  = ['455A64', 240]
 let s:colors.background = ['263238', 236]
-let s:colors.foreground = ['c5c8c6', 250]
+let s:colors.foreground = ['C5C8C6', 250]
 
 " Highlighting Function
 " ---------------------
@@ -90,8 +90,7 @@ call s:Hl('Todo'      , 'orange'    , 'background', 'none')
 " Vim Highlighting: (see :help highlight-groups)
 " ----------------------------------------------
 
-" Optionals: VisualNOS, WildMenu
-" Optionals: Conceal, Cursor, CursorIM
+" Optionals: Conceal, Cursor, CursorIM, VisualNOS
 
 call s:Hl('Title'       , 'yellow'    , ''          , 'none')
 call s:Hl('ColorColumn' , 'foreground', 'line'      , 'none')
@@ -133,6 +132,7 @@ call s:Hl('TabLineFill' , 'foreground', 'line'      , 'none')
 call s:Hl('TabLineSel'  , 'blue'      , 'background', 'none')
 call s:Hl('Visual'      , 'foreground', 'selection' , 'none')
 call s:Hl('WarningMsg'  , 'red'       , 'background', 'none')
+call s:Hl('WildMenu'    , 'line'      , 'blue'      , 'none')
 " call s:Hl('', '', '', 'none')
 
 " Local Cleanup

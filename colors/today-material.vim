@@ -44,8 +44,8 @@ let s:colors.line       = ['37474F', 238]
 let s:colors.window     = ['303030', 236]
 let s:colors.comment    = ['707880', 243]
 let s:colors.selection  = ['455A64', 240]
-let s:colors.background = ['263238', 236]
-let s:colors.foreground = ['C5C8C6', 250]
+let s:colors.background = ['282C34', 236]
+let s:colors.foreground = ['AAAAAA', 250]
 
 " Highlighting Function
 " ---------------------

@@ -1,6 +1,3 @@
-" File: today.vim
-" Source: https://github.com/kh3phr3n/today-theme
-
 " Initialization
 " --------------
 

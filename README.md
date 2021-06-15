@@ -3,7 +3,7 @@
 Color palette based on
 [Hybrid](https://github.com/w0ng/vim-hybrid), [Material](https://github.com/kristijanhusak/vim-hybrid-material) and [Tomorrow](https://github.com/ChrisKempson/Tomorrow-Theme).
 
-![today-theme](https://static.tuxico.com/today-theme/preview.png)
+![today-theme](https://cdn.nixsys.fr/static/github/today-theme/preview.png)
 
 ## Installation
 
